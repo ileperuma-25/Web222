@@ -1,0 +1,88 @@
+header {
+  background-color: white;
+  color: #0077ff;
+  justify-content: center;
+  padding-left: 450px;
+}
+
+.up {
+  display: grid;
+  padding-bottom: 50px;
+  grid-template-columns: repeat(3, 250px);
+  font-size: 20px;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#container {
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 32px;
+  padding: 40px;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(3, 550px);
+}
+
+.House {
+  max-width: 350px;
+}
+
+.card {
+  background-color: white;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+img {
+  width: 100%;
+  height: 214px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 4px;
+  color: gray;
+  line-height: 150%;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+
+  margin: 0 auto;
+}
+
+button:focus,
+button:hover {
+  background-color: #0077ff;
+  color: #e0efff;
+}
+
+.nothing {
+  display: grid;
+  justify-content: center;
+  padding-top: 10%;
+  font-size: 30px;
+}
+
+/* .card_details {
+  padding: 16px 8px 8px 8px;
+} */
